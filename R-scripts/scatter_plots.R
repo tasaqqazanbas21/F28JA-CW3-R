@@ -1,0 +1,6 @@
+n <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31)
+trad <- c(116, 76, 51, 128, 142, 168, 114, 138, 100, 136, 145, 62, 77, 90, 142, 272, 50, 102, 83, 29, 112, 32, 35, 125, 162, 138, 96, 136, 92, 77, 70)
+ai <- c(49, 107, 82, 142, 62, 96, 65, 44, 60, 52, 61, 132, 91, 60, 133, 60, 72, 33, 87, 101, 127, 108, 121, 69, 68, 125, 71, 122, 71, 94, 68)
+plot(y=sort(trad),type="l", x=n, col="blue", xlab="Participant Number", ylab="Time Spent", main="Traditional Vs AI-powered: task completion time")
+lines(x=n, y=sort(ai), col="red")
+legend("topleft", legend = c("Traditional", "AI"), col = c("blue", "red"), lty=1)
