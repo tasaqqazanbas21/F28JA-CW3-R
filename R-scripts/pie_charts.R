@@ -3,7 +3,7 @@ labels <- c("18-25", "<18", "25-30", "<30", ">30")
 pie(vals, labels = labels, main="Participants' age")
 
 gender_vals <- c(29, 61.3, 9.6)
-labels2 <- c("Male", "Female", "Prefer to not say")
+labels2 <- c("Female", "Male", "Prefer to not say")
 pie(gender_vals, labels=labels2, main="Participants' gender")
 
 ed_vals <- c(80.65, 12.9, 6.5)
